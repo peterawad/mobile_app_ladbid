@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564E4FE029831DFB009CDDE2 /* ladbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E4FDF29831DFB009CDDE2 /* ladbitApp.swift */; };
+		564E4FE229831DFB009CDDE2 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E4FE129831DFB009CDDE2 /* login.swift */; };
+		564E4FE429831DFC009CDDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564E4FE329831DFC009CDDE2 /* Assets.xcassets */; };
+		564E4FE829831DFC009CDDE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564E4FE729831DFC009CDDE2 /* Preview Assets.xcassets */; };
+		564E4FF229831DFC009CDDE2 /* ladbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E4FF129831DFC009CDDE2 /* ladbitTests.swift */; };
+		564E4FFC29831DFC009CDDE2 /* ladbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E4FFB29831DFC009CDDE2 /* ladbitUITests.swift */; };
+		564E4FFE29831DFD009CDDE2 /* ladbitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E4FFD29831DFD009CDDE2 /* ladbitUITestsLaunchTests.swift */; };
+		564E500B29857803009CDDE2 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E500A29857803009CDDE2 /* home.swift */; };
+		564E50BC298876E6009CDDE2 /* items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E50BB298876E6009CDDE2 /* items.swift */; };
+		5658C45429889DB700F80949 /* meg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658C45329889DB700F80949 /* meg.swift */; };
+		5658C4562988A05300F80949 /* boat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658C4552988A05300F80949 /* boat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564E4FEE29831DFC009CDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564E4FD429831DFB009CDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564E4FDB29831DFB009CDDE2;
+			remoteInfo = ladbit;
+		};
+		564E4FF829831DFC009CDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564E4FD429831DFB009CDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564E4FDB29831DFB009CDDE2;
+			remoteInfo = ladbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564E4FDC29831DFB009CDDE2 /* ladbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ladbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564E4FDF29831DFB009CDDE2 /* ladbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladbitApp.swift; sourceTree = "<group>"; };
+		564E4FE129831DFB009CDDE2 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		564E4FE329831DFC009CDDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564E4FE529831DFC009CDDE2 /* ladbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ladbit.entitlements; sourceTree = "<group>"; };
+		564E4FE729831DFC009CDDE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		564E4FED29831DFC009CDDE2 /* ladbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ladbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564E4FF129831DFC009CDDE2 /* ladbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladbitTests.swift; sourceTree = "<group>"; };
+		564E4FF729831DFC009CDDE2 /* ladbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ladbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564E4FFB29831DFC009CDDE2 /* ladbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladbitUITests.swift; sourceTree = "<group>"; };
+		564E4FFD29831DFD009CDDE2 /* ladbitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladbitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		564E500A29857803009CDDE2 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		564E50BB298876E6009CDDE2 /* items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = items.swift; sourceTree = "<group>"; };
+		5658C45329889DB700F80949 /* meg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meg.swift; sourceTree = "<group>"; };
+		5658C4552988A05300F80949 /* boat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564E4FD929831DFB009CDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FEA29831DFC009CDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FF429831DFC009CDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564E4FD329831DFB009CDDE2 = {
+			isa = PBXGroup;
+			children = (
+				564E4FDE29831DFB009CDDE2 /* ladbit */,
+				564E4FF029831DFC009CDDE2 /* ladbitTests */,
+				564E4FFA29831DFC009CDDE2 /* ladbitUITests */,
+				564E4FDD29831DFB009CDDE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564E4FDD29831DFB009CDDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564E4FDC29831DFB009CDDE2 /* ladbit.app */,
+				564E4FED29831DFC009CDDE2 /* ladbitTests.xctest */,
+				564E4FF729831DFC009CDDE2 /* ladbitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564E4FDE29831DFB009CDDE2 /* ladbit */ = {
+			isa = PBXGroup;
+			children = (
+				564E4FDF29831DFB009CDDE2 /* ladbitApp.swift */,
+				564E4FE129831DFB009CDDE2 /* login.swift */,
+				564E500A29857803009CDDE2 /* home.swift */,
+				564E50BB298876E6009CDDE2 /* items.swift */,
+				564E4FE329831DFC009CDDE2 /* Assets.xcassets */,
+				564E4FE529831DFC009CDDE2 /* ladbit.entitlements */,
+				564E4FE629831DFC009CDDE2 /* Preview Content */,
+				5658C45329889DB700F80949 /* meg.swift */,
+				5658C4552988A05300F80949 /* boat.swift */,
+			);
+			path = ladbit;
+			sourceTree = "<group>";
+		};
+		564E4FE629831DFC009CDDE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				564E4FE729831DFC009CDDE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		564E4FF029831DFC009CDDE2 /* ladbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				564E4FF129831DFC009CDDE2 /* ladbitTests.swift */,
+			);
+			path = ladbitTests;
+			sourceTree = "<group>";
+		};
+		564E4FFA29831DFC009CDDE2 /* ladbitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564E4FFB29831DFC009CDDE2 /* ladbitUITests.swift */,
+				564E4FFD29831DFD009CDDE2 /* ladbitUITestsLaunchTests.swift */,
+			);
+			path = ladbitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564E4FDB29831DFB009CDDE2 /* ladbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564E500129831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbit" */;
+			buildPhases = (
+				564E4FD829831DFB009CDDE2 /* Sources */,
+				564E4FD929831DFB009CDDE2 /* Frameworks */,
+				564E4FDA29831DFB009CDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ladbit;
+			productName = ladbit;
+			productReference = 564E4FDC29831DFB009CDDE2 /* ladbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564E4FEC29831DFC009CDDE2 /* ladbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564E500429831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbitTests" */;
+			buildPhases = (
+				564E4FE929831DFC009CDDE2 /* Sources */,
+				564E4FEA29831DFC009CDDE2 /* Frameworks */,
+				564E4FEB29831DFC009CDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564E4FEF29831DFC009CDDE2 /* PBXTargetDependency */,
+			);
+			name = ladbitTests;
+			productName = ladbitTests;
+			productReference = 564E4FED29831DFC009CDDE2 /* ladbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564E4FF629831DFC009CDDE2 /* ladbitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564E500729831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbitUITests" */;
+			buildPhases = (
+				564E4FF329831DFC009CDDE2 /* Sources */,
+				564E4FF429831DFC009CDDE2 /* Frameworks */,
+				564E4FF529831DFC009CDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564E4FF929831DFC009CDDE2 /* PBXTargetDependency */,
+			);
+			name = ladbitUITests;
+			productName = ladbitUITests;
+			productReference = 564E4FF729831DFC009CDDE2 /* ladbitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564E4FD429831DFB009CDDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					564E4FDB29831DFB009CDDE2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					564E4FEC29831DFC009CDDE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 564E4FDB29831DFB009CDDE2;
+					};
+					564E4FF629831DFC009CDDE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 564E4FDB29831DFB009CDDE2;
+					};
+				};
+			};
+			buildConfigurationList = 564E4FD729831DFB009CDDE2 /* Build configuration list for PBXProject "ladbit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564E4FD329831DFB009CDDE2;
+			productRefGroup = 564E4FDD29831DFB009CDDE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564E4FDB29831DFB009CDDE2 /* ladbit */,
+				564E4FEC29831DFC009CDDE2 /* ladbitTests */,
+				564E4FF629831DFC009CDDE2 /* ladbitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564E4FDA29831DFB009CDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564E4FE829831DFC009CDDE2 /* Preview Assets.xcassets in Resources */,
+				564E4FE429831DFC009CDDE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FEB29831DFC009CDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FF529831DFC009CDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564E4FD829831DFB009CDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564E50BC298876E6009CDDE2 /* items.swift in Sources */,
+				564E500B29857803009CDDE2 /* home.swift in Sources */,
+				564E4FE229831DFB009CDDE2 /* login.swift in Sources */,
+				5658C45429889DB700F80949 /* meg.swift in Sources */,
+				564E4FE029831DFB009CDDE2 /* ladbitApp.swift in Sources */,
+				5658C4562988A05300F80949 /* boat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FE929831DFC009CDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564E4FF229831DFC009CDDE2 /* ladbitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564E4FF329831DFC009CDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564E4FFE29831DFD009CDDE2 /* ladbitUITestsLaunchTests.swift in Sources */,
+				564E4FFC29831DFC009CDDE2 /* ladbitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564E4FEF29831DFC009CDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564E4FDB29831DFB009CDDE2 /* ladbit */;
+			targetProxy = 564E4FEE29831DFC009CDDE2 /* PBXContainerItemProxy */;
+		};
+		564E4FF929831DFC009CDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564E4FDB29831DFB009CDDE2 /* ladbit */;
+			targetProxy = 564E4FF829831DFC009CDDE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		564E4FFF29831DFD009CDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564E500029831DFD009CDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		564E500229831DFD009CDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ladbit/ladbit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ladbit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564E500329831DFD009CDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ladbit/ladbit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ladbit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564E500529831DFD009CDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ladbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ladbit";
+			};
+			name = Debug;
+		};
+		564E500629831DFD009CDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ladbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ladbit";
+			};
+			name = Release;
+		};
+		564E500829831DFD009CDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ladbit;
+			};
+			name = Debug;
+		};
+		564E500929831DFD009CDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwe.ladbitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ladbit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564E4FD729831DFB009CDDE2 /* Build configuration list for PBXProject "ladbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564E4FFF29831DFD009CDDE2 /* Debug */,
+				564E500029831DFD009CDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564E500129831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564E500229831DFD009CDDE2 /* Debug */,
+				564E500329831DFD009CDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564E500429831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564E500529831DFD009CDDE2 /* Debug */,
+				564E500629831DFD009CDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564E500729831DFD009CDDE2 /* Build configuration list for PBXNativeTarget "ladbitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564E500829831DFD009CDDE2 /* Debug */,
+				564E500929831DFD009CDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564E4FD429831DFB009CDDE2 /* Project object */;
+}
